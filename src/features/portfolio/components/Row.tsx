@@ -11,7 +11,7 @@ export function Row({ title, items }: { title: string; items: PortfolioItem[] })
             <div className="no-scrollbar overflow-x-auto px-4 sm:px-8">
                 <div className="flex gap-3">
                     {items.map((item) => (
-                        <div key={item.id} className="min-w-[260px] sm:min-w-[280px] md:min-w-[320px]">
+                        <div key={item.id} className="min-w-[220px] sm:min-w-[240px] md:min-w-[260px]">
                             <RowItemCard item={item} />
                         </div>
                     ))}
