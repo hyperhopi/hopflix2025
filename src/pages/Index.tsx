@@ -8,7 +8,7 @@ export default function Index() {
             <div className="relative">
                 <Hero />
 
-                <main className="relative z-20 -mt-48 pb-10">
+                <main className="relative z-20 pb-16 -mt-20 min-[344px]:-mt-16 min-[540px]:-mt-28 min-[768px]:-mt-28 min-[820px]:-mt-44 min-[1024px]:-mt-40 min-[1280px]:-mt-24">
                     {portfolioRows.map((row) => (
                         <Row key={row.id} title={row.title} items={row.items} />
                     ))}
